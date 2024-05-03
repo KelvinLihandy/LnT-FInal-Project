@@ -4,10 +4,10 @@ import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
 
 public class Menu {
-	String menuCode;
-	String menuName;
-	int menuPrice;
-	int menuStock;
+	private String menuCode;
+	private String menuName;
+	private int menuPrice;
+	private int menuStock;
 	
 	public Menu(String menuCode, String menuName, int menuPrice, int menuStock) {
 		super();
